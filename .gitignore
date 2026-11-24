@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+
+# Environment and secrets
+.env
+*.env
+secrets/
+
+# Rust (stretch goal)
+target/
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+
+# Local data
+data/
+*.parquet
+*.log
